@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans serif;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+
+.universe-container {
+    
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    justify-content: center; 
+    width: 600px;
+    margin: auto;
+    margin-top: 60px;
+    height: 600px;
+}
+.universe-container {
+    background-image: url("../images/inflation-720.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 2 / -2;
+}
+
+.universe-container .universe-child {
+    margin-top: 130px;
+    padding: 2px;
+}
+
+.universe-child p{
+    font-family: arial,helvetica,sans-serif;
+    font-size: 10px;
+    font-weight: 100;
+    line-height: 11px;
+    line-height:inherit;
+    text-align: center
+}
