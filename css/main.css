@@ -9,8 +9,6 @@
     font-weight: bold;
 }
 
-/* https://typeface.nyt.com/fonts/nyt-franklin-300-normal.woff */
-
 *{  
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -18,7 +16,6 @@
     padding: 0;
     margin: 0;
     font-size: 1rem;
-
     font-family: "ny-font";
 }
 
@@ -27,8 +24,7 @@ h1,h2,h3,h4,h5{
 }
 
 
-.universe-container {
-    
+.universe-container {    
     display: grid;
     grid-template-columns: repeat(4, 150px);
     justify-content: center; 
@@ -37,6 +33,7 @@ h1,h2,h3,h4,h5{
     margin-top: 60px;
     height: 600px;
 }
+
 .universe-container {
     background-image: url("../images/inflation-720.png");
     background-size: 100%;
@@ -119,7 +116,7 @@ h1,h2,h3,h4,h5{
     display: inline;  
 }
 
-.Add{
+.add{
     background: rgba(0,0,0,.5);
 
     margin-bottom: 50px;
@@ -146,6 +143,13 @@ h1,h2,h3,h4,h5{
     margin: 30px 0px;
 }
 
+.image-description{
+    max-width: 100%;
+}
+
+.article-image{
+    max-width: 100%;
+}
 
 
 .footer{
