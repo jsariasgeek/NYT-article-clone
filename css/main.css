@@ -1,7 +1,15 @@
 @font-face{
-    font-family: ny-font;
-    src:url('https://typeface.nyt.com/fonts/nyt-cheltenham-700-normal.woff')
+    font-family: "ny-font";
+    src:url('https://typeface.nyt.com/fonts/nyt-franklin-300-normal.woff')
 }
+
+@font-face{
+    font-family: "ny-font";
+    src:url('https://typeface.nyt.com/fonts/nyt-franklin-700-normal.woff');
+    font-weight: bold;
+}
+
+/* https://typeface.nyt.com/fonts/nyt-franklin-300-normal.woff */
 
 *{  
     box-sizing: border-box;
@@ -9,8 +17,12 @@
     -moz-box-sizing:border-box;
     padding: 0;
     margin: 0;
-    font-weight: 100;
     font-size: 1rem;
+    font-family: "ny-font";
+}
+
+h1,h2,h3,h4,h5{
+    font-weight: bold;
 }
 
 
@@ -48,6 +60,16 @@
 
 .nav-item{
     display: inline-block;
+}
+
+.main-header{
+    position: fixed;
+    top:0;
+    background: white;
+}
+
+.nav-title{
+    font-weight: bold;
 }
 
 .nav-button{
@@ -94,4 +116,53 @@
 
 .navbar-item{
     display: inline;  
+}
+
+.footer{
+    padding: 40px;
+}
+
+.footer-ny-logo{
+    padding-bottom: 15px;
+}
+
+.footer-link-home{
+    float: right;
+    font-size: 0.7rem;
+    color:rgb(98, 136, 165);
+    vertical-align: text-bottom;
+}
+
+.footer-sections-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section-list-menu{
+    list-style: none;
+}
+
+.footer-section-subscribe{
+    border-left: 1px solid rgb(226, 226, 226);
+    padding-left: 10px;
+}
+
+.footer-section-list-menu-highlighted{
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.svg-icon-footer{
+    width: 13px;
+    height: 13px;
+    margin-right: 7px;
+}
+
+.footer-section-list-menu-small{
+    margin-top:20px;
+    padding-bottom: 20px;
+}
+
+.footer-section-list-menu-small li{
+    font-size: 0.8rem;
 }
