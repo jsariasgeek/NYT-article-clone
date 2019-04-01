@@ -15,8 +15,9 @@
     -moz-box-sizing:border-box;
     padding: 0;
     margin: 0;
-    font-size: 1rem;
-    font-family: "ny-font";
+    font-size: 1em;
+    font-family: ny-font;
+    font-weight:500; 
 }
 
 h1,h2,h3,h4,h5{
@@ -52,7 +53,6 @@ h1,h2,h3,h4,h5{
     font-size: 10px;
     font-weight: 100;
     line-height: 11px;
-    line-height:inherit;
     text-align: center
 }
 
@@ -237,3 +237,64 @@ h1,h2,h3,h4,h5{
 .button-subscribe{
     float: right;
 }
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 600px;
+    margin: auto;
+    font-size: 1.2rem;
+    line-height: 2em
+    
+}
+
+
+.title-image{
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    max-width: 1004px;
+    color: rgba(0,0,0,0.6);
+    
+}
+.articles p{
+    margin-bottom: 30px;
+}
+
+.image-description > .image{
+    max-width: 1004px;
+    margin: auto;
+}
+
+.title h1{
+    font-size: 2em;
+    text-align: left;
+    color: black;
+    font-weight: bolder;
+}
+.title{
+    width: 80%;
+    max-width: 1004px;
+    margin: auto;
+    padding: 10px;
+}
+
+
+.author{
+    color: rgba(0,0,0,0.4);
+    font-size: .8rem;
+}
+.article-author{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px 0px;
+    
+}
+
+
+
