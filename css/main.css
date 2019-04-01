@@ -11,6 +11,7 @@
     margin: 0;
     font-weight: 100;
     font-size: 1rem;
+
 }
 
 
@@ -95,3 +96,33 @@
 .navbar-item{
     display: inline;  
 }
+
+.Add{
+    background: rgba(0,0,0,.5);
+
+    margin-bottom: 50px;
+    width: 100%;
+    max-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 100;
+    font-family: ny-font;
+    padding: 0 10px;
+}
+.add-message{
+    width: 100%;
+    text-align: center;
+
+}
+.add-container{
+    width: 90%;
+    padding-bottom: 150px;
+    text-align: center;
+    background: rgba(255,255,255, .6);
+    margin: 30px 0px;
+}
+
+
+
