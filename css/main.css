@@ -9,6 +9,11 @@
     font-weight: bold;
 }
 
+@font-face{
+    font-family: "ny-font";
+    src: :url('https://typeface.nyt.com/fonts/nyt-franklin-500-normal.woff');
+}
+
 *{  
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -21,6 +26,11 @@
 
 h1,h2,h3,h4,h5{
     font-weight: bold;
+}
+
+small{
+    font-size: 0.7rem;
+    color:rgb(153, 153, 153);
 }
 
 
@@ -151,6 +161,74 @@ h1,h2,h3,h4,h5{
     max-width: 100%;
 }
 
+.related-content{
+    width: 100%;
+}
+
+.articles-related, .popular-articles{
+    display: inline-block;
+    border-top: 1px solid black;
+}
+
+.articles-related{
+    width: 70%;
+}
+
+.article-related{
+    width: 30%;
+    display: inline-block;
+    margin: 6px;
+}
+
+.article-related *{
+    display: block;
+}
+
+.image-origin{
+    text-align: right;
+}
+
+.popular-articles{
+    width: 20%;
+    vertical-align: top;
+    padding-top: 15px;
+    margin-left: 15px;
+}
+
+.popular-articles-title{
+    margin-bottom: 15px;
+}
+
+.popular-articles ul{
+    list-style: none;
+}
+
+.popular-articles ul li{
+    border-top: 1px solid rgb(226, 226, 226);
+    padding: 10px 0;
+}
+
+.popular-articles ul li a{
+    text-decoration: none;
+    color:inherit;
+    font-weight: bold;
+
+}
+
+.article-related-thumb{
+    max-width: 100%;
+}
+
+.related-divisor{
+    margin-top:15px;
+}
+
+.editor-picks-title{
+    padding: 15px 0;
+}
+
+
+
 
 .footer{
     padding: 40px;
@@ -195,7 +273,7 @@ h1,h2,h3,h4,h5{
 
 .container-site-info{
     text-align: center;
-    padding: 10px 0 70px 0;
+    padding: 10px 0 30px 0;
     border-top: 1px solid rgb(226, 226, 226);
 }
 
